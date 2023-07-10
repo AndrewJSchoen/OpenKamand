@@ -170,7 +170,6 @@ export const NavBar = () => {
           </Box>
         </Toolbar>
       </Container>
-      <Settings open={settingsOpen} onClose={()=>setSettingsOpen(false)}/>
     </AppBar>
   );
 };
